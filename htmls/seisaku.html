@@ -2,8 +2,40 @@
 <html lang="ja">
     <head>
         <meta charset="utf-8">
+        <title>ホーム</title>
         <link href="seisaku.css" rel="stylesheet">
     </head>
     <body>
+        <ul>
+            <!--折り畳みボタン-->
+            <div onclick="obj=document.getElementById('menu1').style; obj.display=(obj.display=='none')?'block':'none';">
+                <a style="cursor:pointer;"><strong>ゲーム　▼</strong></a>
+            </div>
+            <!--折り畳みボタン-->
+            <!--折りたたんでいる項目-->
+            <div id="menu1" style="display:none;clear:both;">
+                <li>PC</li>
+                <li>スマホ</li>
+                <li>PlayStation</li>
+                <li>Switch</li>
+                <li>Xbox</li>
+            </div>
+            <!--折りたたんでいる項目-->
+            <!--折り畳みボタン-->
+            <div onclick="obj=document.getElementById('menu2').style; obj.display=(obj.display=='none')?'block':'none';">
+                <a style="cursor:pointer;"><strong>本　▼</strong></a>
+            </div>
+            <!--折り畳みボタン-->
+            <!--折りたたんでいる項目-->
+            <div id="menu2" style="display:none;clear:both;">
+                <li>ライトノベル</li>
+                <li>漫画</li>
+                <li>少年誌</li>
+                <li>青年誌</li>
+                <li>同人誌</li>
+                <li>小説</li>
+            </div>
+            <!--折りたたんでいる項目-->
+        </ul>
     </body>
 </html>
