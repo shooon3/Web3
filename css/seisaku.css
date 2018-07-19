@@ -1,3 +1,10 @@
 strong{
-    color: blue
+    color: blue;
+}
+#firstSec{
+    float: left;
+    margin-right: 5em;
+}
+#secondSec{
+    float: left;
 }
