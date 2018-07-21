@@ -1,0 +1,138 @@
+body {
+    background: #ffffff;
+    width: 1000px;
+    padding: 5px;
+    text-align: center;
+    margin: 60px auto;
+    font-size: 20px;
+}
+
+.header {
+    width: 480px;
+}
+
+.main {
+    width: 300px;
+    float: left;
+}
+
+.side {
+    width: 180px;
+    float: right;
+}
+
+.footer {
+    clear: both;
+    width: 480px;
+}
+
+input[type=text] {
+    width: 3８0px;
+    height: 30px;
+    font-size: 25px;
+}
+
+.frmSmpl2 {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    color: #666;
+    padding: .7em;
+    margin: 1em 0 2em;
+    border: 3px solid #eee9ed;
+    border-radius: 15px;
+}
+
+.frmSmpl2 p {
+    /*p要素に背景や角丸を指定*/
+    margin: 7px 0 0;
+    padding: 10px;
+    background: #EEE9ED;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.frmSmpl2 p:first-child {
+    /*最初のpはマージン無し*/
+    margin: 0;
+}
+
+.frmSmpl2 span {
+    /*span要素（質問テキスト）をブロック化し横に並べる*/
+    width: 48%;
+    margin: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/*テキスト入力部品のスタイルを統一*/
+
+.frmSmpl2 .txtfiled,
+.frmSmpl2 select {
+    width: 45%;
+    padding: 5px;
+    margin: 0;
+    color: #666;
+    border: solid 1px #ccc;
+    background: #fff;
+    box-shadow: 1px 1px 1px #fff;
+    border-radius: 7px;
+}
+
+.frmSmpl2 select {
+    /*selectの幅は小さめに*/
+    width: 10em;
+}
+
+/*チェックボックス・ラジオボタンの label要素を横に並べる*/
+
+.frmSmpl2 span.check label,
+.frmSmpl2 span.radio label {
+    display: inline-block;
+    width: 8em;
+}
+
+.frmSmpl2 span.radio label {
+    /*ラジオボタンの label要素の幅を小さく*/
+    width: 3em;
+}
+
+/*input要素とテキストがくっつかないように*/
+
+.frmSmpl2 span.check label input,
+.frmSmpl2 span.radio label input {
+    margin-right: 0.5em;
+}
+
+/*チェックボックス・ラジオボタンのlabelのマウスオーバー時*/
+
+.frmSmpl2 span.check label:hover,
+.frmSmpl2 span.radio label:hover {
+    background: #c08b9b;
+    color: #fff;
+    font-weight: bold;
+}
+
+/*送信・リセットボタンのスタイル*/
+
+.frmSmpl2 input[type="submit"],
+.frmSmpl2 input[type="reset"] {
+    cursor: pointer;
+    font-size: 130%;
+    font-weight: bold;
+    width: 100px;
+    padding: 4px 10px;
+    margin-right: .5em;
+    color: #fff;
+    border: 1px solid #bbb;
+    background: #c08b9b;
+    border-radius: 5px;
+    box-shadow: -1px -1px 1px #fff;
+}
+
+/*送信・リセットのマウスオーバー時*/
+
+.frmSmpl2 input[type="submit"]:hover,
+.frmSmpl2 input[type="reset"]:hover {
+    background: #985267;
+}
