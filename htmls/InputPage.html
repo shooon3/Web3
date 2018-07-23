@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/InputPage.css">
+    <title>登録ページ</title>
+</head>
+
+<body>
+    <h1>登録ページ</h1>
+    <p>ここは登録ページです</p>
+    <div>
+        <p>掲載する情報を入れてください</p>
+        <form class="frmSmpl2" method="post" enctype="multipart/form-data" action="<_php print($_SERVER['PHP_SELF']) ?>">
+            <p>
+                <label><span>タイトル</span>
+                    <input type="text" name="favorite" class="txtfiled" placeholder="検索ワードとなります">
+                </label>
+            </p>
+            <p>
+                <label>
+                    <span>活動概要</span>
+                    <textarea name="comment" class="txtfiled"></textarea>
+                </label>
+            </p>
+            <p>
+                <span>あなたの活動のジャンル<br>を選択してください（複数可）</span>
+                <span class="check">
+                    <label><input type="checkbox" name="genre" value="drama" />小説</label>
+                    <label><input type="checkbox" name="genre" value="drama" />漫画</label>
+                    <label><input type="checkbox" name="genre" value="drama" />ゲーム制作</label>
+                    <label><input type="checkbox" name="genre" value="drama" />二次創作</label>
+                    <label><input type="checkbox" name="genre" value="drama" />その他</label>
+                </span>
+            </p>
+            <p>
+                <!--送信ボタンは「disabled属性」で無効にしています↓-->
+                <input type="submit" value="投稿" disabled>
+                <input type="reset" value="リセット">
+            </p>
+        </form>
+    </div>
+</body>
+
+</html>

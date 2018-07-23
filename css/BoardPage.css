@@ -1,0 +1,233 @@
+/*============================
+Base
+============================*/
+
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+#pageSet {
+    width: 985px;
+    margin: 0 auto;
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none;
+    color: #3498db;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+
+
+/*============================
+jobsearchArea
+============================*/
+
+jobsearchRightArea {
+    float: right;
+    width: 710px;
+    margin-top: 10px;
+}
+
+#jobKomaArea {
+    margin: 0 5px 0 0;
+    padding: 0px 0px 20px;
+    position: relative;
+}
+
+#jobKomaArea .koma {
+    position: relative;
+    display: block;
+    margin-top: 40px;
+    padding: 0;
+    border: none;
+}
+
+#jobKomaArea .komaContent {
+    margin: 0px;
+    clear: both;
+    padding: 0 0 3px 0;
+    position: relative;
+    border-bottom: none;
+    border-radius: 6px;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.3);
+}
+
+
+#jobKomaArea .komaContent .title {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    box-sizing: content-box;
+    border-bottom: 1px solid #eec;
+    line-height: 1.7;
+    background: #ffe;
+}
+
+#jobKomaArea .komaContent .title a {
+    display: block;
+    border-top: 5px solid #6c0;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #009ED6;
+    line-height: 1.2;
+    border-radius: 3px 3px 0 0;
+}
+
+#jobKomaArea .komaContent .title .icon {
+    margin: 0 -40px 0px -2px;
+}
+
+#jobKomaArea .komaContent .title .icon .keyword.type {
+    color: #5a0;
+    border: 1px solid #fff;
+    background: #dfa;
+}
+
+#jobKomaArea .komaContent .title .icon .keyword {
+    position: relative;
+    top: 3px;
+    display: inline-block;
+    margin: 2px 1px;
+    text-align: center;
+    padding: 3px 5px;
+    font-size: 12px;
+    line-height: 1.4;
+    border: 1px solid #fff;
+    background: #7c2;
+    color: #fff;
+    border-radius: 2px;
+    font-weight: normal;
+}
+
+#jobKomaArea .komaContent .point {
+    position: relative;
+    display: table;
+    width: 90%;
+    min-height: 65px;
+    vertical-align: middle;
+    border: 10px solid #fff;
+}
+
+#jobKomaArea .komaContent .point .image {
+    display: table-cell;
+    width: 40px !important;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#jobKomaArea .komaContent .point p {
+    display: table-cell;
+    padding-left: 8px;
+    vertical-align: middle;
+    color: #f73;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+#jobKomaArea .komaContent .searchListData {
+    padding: 0px 0 10px 0;
+    font-size: 14px;
+}
+
+#jobKomaArea .komaContent .searchListData table {
+    width: 100%;
+}
+
+#jobKomaArea .komaContent .searchListData th {
+    width: 100px !important;
+    padding: 10px;
+    color: #555;
+    font-size: 12px;
+    line-height: 1.4;
+    border-top: 1px solid #e6e6e6;
+    border-right: 1px solid #eee;
+    font-weight: normal;
+    background: #F9F9F9;
+}
+
+#jobKomaArea .komaContent .searchListData td {
+    padding: 8px;
+    border-top: 1px solid #e6e6e6;
+    line-height: 1.4;
+    font-size: 13px;
+}
+
+#jobKomaArea .btn.triple {
+    margin: -10px 0px 0px;
+    display: table;
+    width: 100%;
+    text-align: center;
+    border-spacing: 0px;
+}
+
+
+
+/*============================
+jobsearchArea
+============================*/
+
+#heading{
+	position:relative;
+	margin:0 20px 0 20px;
+	padding:10px 15px;
+	font:bold 22px/1.2 Arial, Helvetica, sans-serif;
+	color:#fff;
+	background:#c33;
+    text-align: center;
+}
+#heading:before{
+	content:"<";
+	position:absolute;
+	top:middle;
+	left:-10px;
+	width:0;
+	height:0;
+	font-size:25px;
+	line-height:1.0;
+	color:#c96;
+}
+#heading:after{
+	content:" ";
+	position:absolute;
+	top:-2px;
+	left:-10px;
+	width:0;
+	height:130%;
+	border:#600 solid 2px;
+	border-radius:2px;
+	-webkit-transform: rotate(-2deg);
+	-moz-transform: rotate(-2deg);
+	-o-transform: rotate(-2deg);
+	transform: rotate(-2deg);
+
+}
